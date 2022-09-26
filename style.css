@@ -46,6 +46,8 @@ h3 {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  margin:0 auto;
+  max-width: 150px;
 }
 
 p {
@@ -53,7 +55,7 @@ p {
   border-radius: 4px;
   font-size: 20px;
   line-height: 1.5;
-  text-align: left;
+  text-align: center
 }
 
 .navigation-links {
@@ -97,13 +99,24 @@ p {
 }
 
 .email-link {
-  display: flex;
-  justify-content: center;
+  display: block;
   color: var(--primary-color);
-  font-size: 28px;
+  font-size: 25px;
   text-decoration: none;
+ 
 }
 
 .email-link:hover {
   text-decoration: underline;
+;
+}
+img{
+  padding-top: 25px;
+}
+a{
+  text-align: center;
+  display: block;
+}
+.email{
+ text-align: center;
 }
